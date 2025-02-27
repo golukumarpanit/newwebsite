@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#main{
+    display: flex;
+    justify-items: center;
+    justify-content: center;    
+    align-items: center;
+}
+.header-fixed{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.maincontairner{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.DIVDALEPAEGE{
+    margin-top: 100px;
+    border: solid black 2px;
+    width: 1920px;
+}
+.slider {
+    width: 1920px;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    background-color: red;
+}
+.slides {
+    display: flex;
+    width: 1920px;
+    height: 700px;
+    animation: slide 20s infinite;
+    background-color: black;
+}
+.slides img {
+    width: 1920px;
+    height: 700px;
+    object-fit: cover;
+
+    /* margin-top: 1000px; */
+}
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    20% { transform: translateX(0%); }
+    25% { transform: translateX(-100%); }
+    45% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    70% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    95% { transform: translateX(-300%); }
+    100% { transform: translateX(-400%); }
+}
+.project {
+    width: 100%; /* Ensure the parent container takes full width */
+    max-width: 100%; /* Prevent overflow */
+}
+
+.textboxforproject {
+    width: 100%; /* Ensure the container takes full width */
+    max-width: 100%; /* Prevent overflow */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.projecttext {
+    font-size: 14pt;
+    border: solid 2px black;
+    text-align: left;
+    padding: 20px;
+    overflow-wrap: break-word; /* Break long words to prevent overflow */
+    word-wrap: break-word; /* Fallback for older browsers */
+    white-space: pre-wrap; /* Preserve line breaks and wrap text */
+    box-sizing: border-box; /* Include padding and border in the width */
+    max-width: 100%; /* Ensure the text box does not exceed its container */
+    overflow: auto; /* Add scrollbars if content overflows */
+}
+.bichmechahiye{
+    text-align: center;
+    color: red;
+}
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+h1 {
+    color: #333;
+    text-shadow: #007bff;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    background: #007bff;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.description {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+}
+.address {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
