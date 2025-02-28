@@ -51,17 +51,26 @@
     display: flex;
     width: 1920px;
     margin: 0 auto;
+    justify-content: end;
+    align-items: end;
    
     
 }
 .font1{
     background-color: rgb(6, 223, 42)
 }
+.form{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    justify-items: end;
+}
 .yahasesizeapneaapincreasehorhahai{
-    background-color: rgb(236, 221, 8);
+    background-color: rgba(245, 210, 145, 0.63);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: end;
     width: 1920px;
     max-width: 100%; /* Ensures the container doesn't exceed screen width */
     height: 500px; /* Use viewport height */
@@ -73,9 +82,11 @@
     box-sizing: border-box; /* Includes padding and border in width/height */
 }
 .form-container{
-    text-align: start;
-    color: rgb(233, 4, 4);
-    width: 1000px;
+    text-align: cen;
+    color: rgb(216, 21, 86);
+    width: 800px;
+    border: solid #38166f 2px;
+    background-color: #38166f;
 }
 .showTab{
     width: 200px;
