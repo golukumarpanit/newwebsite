@@ -137,8 +137,28 @@ li {
     display: flex;
     width: 100%;
 }
-.boxes{
-   
+/* Keyframes Define Karein */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.boxes {
     height: 400px;
     width: 100%;
     margin: 20px;
@@ -147,5 +167,8 @@ li {
     border: solid green 2px;
     padding: 20px;
     
-    
+    /* Start with invisible */
+    opacity: 0;
+    transform: translateY(100%); /* Start from bottom */
+    transition: opacity 1s ease-out, transform 1s ease-out; /* Smooth transition */
 }
