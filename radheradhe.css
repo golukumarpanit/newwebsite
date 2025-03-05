@@ -97,6 +97,15 @@
     background-color: white;
     border-radius: 5px;
 }
+.formboxes{
+    height: 50px;
+    width: 100%;
+    margin: 5px;
+    background-color: rgb(238, 184, 6);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
 .showTab{
     width: 200px;
 }
