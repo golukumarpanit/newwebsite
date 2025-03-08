@@ -80,7 +80,7 @@ input[type="text"], input[type="date"], input[type="tel"], select {
     border-radius: 5px; /* Rounded corners */
     outline: none; /* Remove focus outline */
     transition: all 0.3s ease; /* Smooth transition for hover and focus */
-    -webkit-appearance: none; /* Removes default arrow style in WebKit browsers */
+    
 }
 
 
@@ -98,8 +98,7 @@ button {
 
 
 .course-gd-content {
-    display: flex
-;
+    display: flex;
     position: relative;
     flex-direction: column;
     width: 100%;
@@ -126,6 +125,62 @@ button {
     width: 100%;
     height: fit-content;
 }
+.newidea{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #f8ce73;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.professorlenahai{
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 200px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #2980b9;
+    margin: 0 auto;
+}
+.dekhiyefont{
+    display: flex;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40pt;
+    margin: 0  auto;
+}
+.eklinemekrnahai{
+    display: flex;
+}
+.formboxprofessor{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    border: solid black 1px;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+}
+.nopreview{
+    display: flex;
+    background-color: white ;
+    margin: 0   auto;
+    padding: 0px;
+    height: fit-content;
+    border: none;
+
+}
+.BUTTONCHANGE{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #ecaa2f;
+    border-radius: 3px;
+}
+
 .Thisiscoursepanel{
     display: flex;
     background-color: purple;
