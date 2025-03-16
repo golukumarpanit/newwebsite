@@ -56,6 +56,14 @@ function openCourse() {
         // Open the URL in a new tab for TYPING 2023
         window.open('https://gcsmtyp.netlify.app/', '_blank');
     }
+    else if (courseSelect1.value === 'Airtable' && courseSelect2.value === 'Airtable20') {
+        // Show alert first
+        alert('Sirf Amankumarpandit mail se hi khulega.');
+        // After alert is closed, open the URL
+        setTimeout(() => {
+            window.open('https://airtable.com/appGsMAUq85SeCLO1/tblWrew2BYIhRC9RX/viwttwAUE93neKoqA?blocks=hide', '_blank');
+        }, 100); // Small delay to ensure alert is closed
+    }
     else {
         alert('Please select Dhyan se Chelaa???');
     }
