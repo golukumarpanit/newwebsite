@@ -27,26 +27,29 @@ body {
     width: 1920px;
 }
 .slider {
-    width: 1920px;
-    height: 700px;
+    width: 100%; /* Full width responsive */
+    height: 800px; /* Fixed height (आप इसे अपने हिसाब से adjust कर सकते हैं) */
     overflow: hidden;
     position: relative;
     background-color: red;
 }
+
 .slides {
     display: flex;
-    width: 1920px;
-    height: 700px;
+    width: 100%; /* Full width responsive */
+    height: 100%; /* Parent (.slider) की height inherit करेगा */
     animation: slide 20s infinite;
     background-color: black;
 }
-.slides img {
-    width: 1920px;
-    height: 700px;
-    object-fit: cover;
 
-    /* margin-top: 1000px; */
+.slides img {
+    width: 100%; /* Full width responsive */
+    height: 100%; /* Fixed height (parent के अनुसार) */
+    object-fit: cover; /* Image crop नहीं होगी, fit रहेगी */
+    flex-shrink: 0; /* Images squeeze नहीं होंगी */
 }
+
+
 @keyframes slide {
     0% { transform: translateX(0%); }
     20% { transform: translateX(0%); }
