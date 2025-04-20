@@ -64,6 +64,14 @@ function openCourse() {
             window.open('https://airtable.com/appGsMAUq85SeCLO1/tblWrew2BYIhRC9RX/viwttwAUE93neKoqA?blocks=hide', '_blank');
         }, 100); // Small delay to ensure alert is closed
     }
+    else if (courseSelect1.value === 'Airtable' && courseSelect2.value === 'Airtable30') {
+        // Show alert first
+        alert('Sirf Amankumarpandit mail se hi khulega.');
+        // After alert is closed, open the URL
+        setTimeout(() => {
+            window.open('https://airtable.com/appQgYPqyGnNdrtlL/tblWjy4iSRMiXUYdQ/viwFEl6S6LBc4NblW?blocks=hide', '_blank');
+        }, 100); // Small delay to ensure alert is closed
+    }
     else {
         alert('Please select Dhyan se Chelaa???');
     }
