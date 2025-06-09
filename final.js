@@ -72,6 +72,15 @@ function openCourse() {
             window.open('https://airtable.com/appQgYPqyGnNdrtlL/tblWjy4iSRMiXUYdQ/viwFEl6S6LBc4NblW?blocks=hide', '_blank');
         }, 100); // Small delay to ensure alert is closed
     }
+    // yaha se marksheets add kiya hai 
+    else if (courseSelect1.value === 'adca2024lenahai' && courseSelect2.value === 'marksheets') {
+        // Show alert first
+        alert('Sirf Amankumarpandit mail se hi khulega.');
+        // After alert is closed, open the URL
+        setTimeout(() => {
+            window.open('https://marksheets2024.netlify.app/', '_blank');
+        }, 100); // Small delay to ensure alert is closed
+    }
     else {
         alert('Please select Dhyan se Chelaa???');
     }
