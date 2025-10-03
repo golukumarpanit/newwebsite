@@ -52,6 +52,17 @@ function openCourse() {
         // Open the URL in a new tab for TYPING 2023
         window.open('https://gcsmtyp.netlify.app/', '_blank');
     }
+    // FORM LGA RHE HAI YAHA 
+    else if (courseSelect1.value === 'Form_Rani' && courseSelect2.value === '2024') {
+        // Open the URL in a new tab for TYPING 2023
+        window.open('https://docs.google.com/forms/d/e/1FAIpQLSeWYDM5yCpIoFMF_zufBBMBO9UqbdO6XdJBxzQHCX5KJ2Eq1g/viewform', '_blank');
+    }
+    // YAHA 2023 KA FORM LGA HAI 
+    else if (courseSelect1.value === 'Form_Rani' && courseSelect2.value === '2023') {
+        // Open the URL in a new tab for TYPING 2023
+        window.open('https://docs.google.com/forms/d/e/1FAIpQLSe4ZIsrzFr4qs5KOvQY-JEM7uXK-PwOXRjfxP8dd_NuYFUeyQ/viewform', '_blank');
+    }
+     // USKE UPPAR FORM HI HAI 
     else if (courseSelect1.value === 'adca2023lenahai' && courseSelect2.value === '2023B') {
         // Open the URL in a new tab for TYPING 2023
         window.open('https://gcsmtyp.netlify.app/', '_blank');
@@ -85,3 +96,20 @@ function openCourse() {
         alert('Please select Dhyan se Chelaa???');
     }
 }
+
+    function Rajakirani(){
+        const Rajakibutton = document.getElementById('raja');
+        const Ranikibutton = document.getElementById('rani');
+        
+        if(Rajakibutton.value === 'Rani_ki_Raja' && Ranikibutton.value === '2024' ) {
+            window.open('https://docs.google.com/spreadsheets/d/1q9KL8CBHjPuhPohyTcGp9wk68VxkJ6OT8DZrRctwRyI/edit?gid=649437653#gid=649437653','_blank');
+        }
+        else if (Rajakibutton.value === 'Rani_ki_Raja' && Ranikibutton.value === '2023' ) {
+            window.open('https://docs.google.com/spreadsheets/d/1DxcHNNLlAGFvyH21PPcK7tSeg5ZXxDXRn7kQ1w5Jp28/edit?gid=649437653#gid=649437653', '_blank');
+
+        }
+        else  {
+            alert('Please Select Carefully')
+        }
+        
+    }
